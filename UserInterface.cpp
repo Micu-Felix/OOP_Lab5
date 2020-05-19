@@ -121,6 +121,7 @@ bool UI() {
                     for (auto &iter : adm->view_filme()) {
                         cout << iter.anschreiben();
                     }
+                    break;
                 default:
                     break;
 

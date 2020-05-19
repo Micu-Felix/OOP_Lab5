@@ -25,18 +25,6 @@ class Repository {
     };
 public:
     int size(){ return repository.size();};
-    /**
-     * IS FRIEND OF REPOSITORY.....MEANWHILE....REPOSITORY IS NOT A FRIEND OF ADMINISTRATOR :(
-     */
-    friend class Administrator;
-    /**
-     * ....NEITHER IS BENUTZER.... :((((
-     */
-    friend class Benutzer;
-    /**
-    * ADDS a FILM
-    * @param film
-    */
     bool add_film(const Film &film);
     /**
      * DELETE A FILM
